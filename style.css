@@ -1,0 +1,118 @@
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ADD8E6, #87CEFA);
+    margin: 0;
+    padding: 30px 15px;
+    transition: background 0.5s ease;
+}
+
+/* Main profile container */
+.profile-container {
+    background: white;
+    max-width: 650px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+h1 {
+    color: #5b4bdb;
+    transition: color 0.3s;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Profile image */
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #667eea;
+}
+
+/* Introduction */
+.intro {
+    color: #555;
+    line-height: 1.7;
+}
+
+/* Details */
+.details {
+    background: #f1f3ff;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+/* Activities */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #e9eaff;
+    padding: 12px;
+    margin: 8px;
+    border-radius: 8px;
+    color: #333;
+}
+
+/* Buttons */
+button {
+    background: #5b4bdb;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    margin: 7px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #392bb0;
+    transform: scale(1.05);
+}
+
+/* Hide additional information */
+.hidden {
+    display: none;
+}
+
+#moreInfo {
+    background: #e9f7ef;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+#greeting {
+    color: #5b4bdb;
+}
+
+footer {
+    margin-top: 25px;
+    color: #777;
+    font-size: 13px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 500px) {
+    .profile-container {
+        padding: 20px 12px;
+    }
+
+    button {
+        width: 90%;
+    }
+}
